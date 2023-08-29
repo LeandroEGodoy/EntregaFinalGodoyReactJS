@@ -8,13 +8,13 @@ const NavBar = () => {
                 <Link to="/" className= "navbar-brand">RagnaWord</Link>
                 <ul className="navbar-nav" >
                  <li className= "nav-item">
-                    <Link to="/vehiculos" className= "nav-link">Figuras</Link>
+                    <NavLink to="/Category/Figuras" className= "nav-link">Figuras</NavLink>
                  </li>
                  <li className= "nav-item">
-                    <Link to="/mueble" className= "nav-link">Ropa</Link>
+                    <NavLink to="/Category/Ropa" className= "nav-link">Ropa</NavLink>
                  </li>
                  <li className= "nav-item">
-                    <Link to="/tecnologia" className= "nav-link">Juegos</Link>
+                    <NavLink to="/Category/Juegos" className= "nav-link">Juegos</NavLink>
                  </li>
             </ul>
 
